@@ -86,16 +86,51 @@ table {
 }
 
 .square {
-  background: transparent;
+  background: #e86262d6;
   border: 1px solid;
   padding: 0;
   vertical-align: top;
   outline: none;
   height: 80px;
   width: 80px;
+  color: #fff;
+  font-size: 20px;
 }
 
-/* .board-row {
-  display: flex;
-  place-content: center
-} */
+.game-player {
+  padding: 20px;
+  font-size: 20px;
+  color: crimson;
+  font-weight: 500;
+  font-family: monospace;
+}
+
+.game-status {
+  padding: 20px;
+}
+
+button {
+  background: transparent;
+  border: 1px solid crimson;
+  padding: 10px;
+  border-radius: 5px;
+  color: #444;
+  font-size: 16px;
+  cursor: pointer;
+  outline: none;
+}
+
+ol {
+  list-style: none;
+  display: grid;
+  max-width: 500px;
+  width: 100%;
+  min-width: 500px;
+  margin: 0 auto;
+  place-content: center;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+li {
+  padding: 2px 0;
+}
