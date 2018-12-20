@@ -64,6 +64,7 @@ class App extends Component {
     return (
       <div className="App game">
         <div className="game-info">
+          <h1 className="title">Tic Tac Toe</h1>
           <div className="game-player">{status}</div>
         </div>
         <div className="game-board">
